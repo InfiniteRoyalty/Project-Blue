@@ -68,6 +68,10 @@ a.fl {
     font-weight: 700;
 }
 
+.footer {
+    font-size: 16px;
+}
+
 img.main {
     object-fit: scale-down;
     display: block;
