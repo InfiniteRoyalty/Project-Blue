@@ -1,0 +1,146 @@
+header {
+    padding: 0px;
+    margin: 0px;
+}
+header.index {
+    background: #4287b0;
+}
+header.waterfalls {
+    background: #4287b0;
+}
+header.rivers {
+    background: #0075cd;
+}
+header.lakes {
+    background: #0b598a;
+}
+header.oceans {
+    background: #0088ad;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    display: table-cell;
+    overflow-wrap: break-word;
+    margin: 10px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+ul {
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background: white;
+    color: #4287b0;
+    padding: 20px;
+}
+
+a.fl:hover {
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a.btt {
+    color: black;
+    padding: 10px;
+}
+
+a.fl {
+    display: inline-block;
+}
+
+.btt:hover {
+    color: #4287b0;
+    font-weight: 700;
+}
+
+img.main {
+    object-fit: scale-down;
+    display: block;
+    object-fit: cover;
+    text-align: center;
+    padding: 0px;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0px;
+}
+
+img {
+    object-fit: scale-down;
+    text-align: center;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 1000px;
+    max-height: 1000px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 5px #AAAAAA;
+}
+
+p {
+    font-size: 24px;
+    margin: 24px 200px;
+}
+
+p.quote {
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 50px;
+    color: #4287b0;
+}
+
+p.desc {
+    font-size: 20px;
+    font-style: italic;
+}
+
+main {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer {
+    background: #4287b0;
+    color: white;
+    margin: 10px 0 0;
+    padding: 10px;
+}
+
+footer.index {
+    background: #1d5c7b;
+}
+footer.waterfalls {
+    background: #080e0a;
+}
+footer.rivers {
+    background: #0075cd;
+}
+footer.lakes {
+    background: #0b598a;
+}
+footer.oceans {
+    background: #e54d5a;
+}
+
+/* Responsive Design*/
+
+@media screen and (max-width: 1024px) {
+    p {
+        margin: 20px;
+    }
+}
